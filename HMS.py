@@ -27,7 +27,7 @@ class hotelfarecal:
         self.coutdate = input("\nEnter your checkout date:")
         print("Your room no.:", self.rno, "\n")
 
-    def roomrent(self):  # sel1353
+    def roomrent(self):
 
         print("We have the following rooms for you:-")
 
@@ -47,24 +47,24 @@ class hotelfarecal:
 
             print("you have opted room type A")
 
-            self.s = 6000 * n
+            self.s = 4000 * n
 
         elif (x == 2):
 
             print("you have opted room type B")
 
-            self.s = 5000 * n
+            self.s = 3300 * n
 
         elif (x == 3):
 
             print("you have opted room type C")
 
-            self.s = 4000 * n
+            self.s = 2500 * n
 
         elif (x == 4):
             print("you have opted room type D")
 
-            self.s = 3000 * n
+            self.s = 1500 * n
 
         else:
 
@@ -117,7 +117,7 @@ class hotelfarecal:
               "6.Exit")
 
         while (1):
-            # brought to you by code-projects.org
+
 
             e = int(input("Enter your choice:"))
 
